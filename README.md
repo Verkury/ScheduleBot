@@ -1,4 +1,4 @@
-# 📅 SheduleBot 
+# 📅 ScheduleBot 
 
 
 
@@ -12,7 +12,7 @@
 ## 🇺🇸 English 
 
 ### About
-**SheduleBot** is a Telegram bot designed to parse and deliver college schedules directly to your phone. It's built for speed and reliability, ensuring you can access your classes even with a poor internet connection.
+**ScheduleBot** is a Telegram bot designed to parse and deliver college schedules directly to your phone. It's built for speed and reliability, ensuring you can access your classes even with a poor internet connection.
 
 ### Architecture
 The project is split into two components to bypass regional IP restrictions (the university website only responds to Russian IP addresses):
@@ -24,14 +24,14 @@ The project is split into two components to bypass regional IP restrictions (the
 
 > **Why this way?** This hybrid approach is more cost-effective than using proxies and ensures a stable connection between the server and the university's local resources.
 
-**Current Bot:** [@sheduleASU_BOT](https://t.me/sheduleASU_BOT)
+**Current Bot:** [@sсhedule_ASU_BOT](https://t.me/schedule_ASU_BOT)
 
 ---
 
 ## 🇷🇺 Русский
 
 ### О проекте
-**SheduleBot** — это Telegram-бот, который парсит расписание с сайта колледжа и предоставляет его в удобном виде. Это гораздо быстрее и стабильнее, чем каждый раз открывать сайт, особенно при слабом мобильном интернете.
+**ScheduleBot** — это Telegram-бот, который парсит расписание с сайта колледжа и предоставляет его в удобном виде. Это гораздо быстрее и стабильнее, чем каждый раз открывать сайт, особенно при слабом мобильном интернете.
 
 ### Архитектура
 Проект разделен на две части, чтобы обойти региональные блокировки (сайт университета принимает запросы только с российских IP-адресов):
@@ -41,7 +41,7 @@ The project is split into two components to bypass regional IP restrictions (the
 
 > **Зачем это нужно?** Мой сервер находится в Нидерландах, а сайт вуза блокирует зарубежные IP. Использование Google Drive как посредника — это дешевле и надежнее, чем аренда прокси-серверов.
 
-**Ссылка на бота:** [@sheduleASU_BOT](https://t.me/sheduleASU_BOT)
+**Ссылка на бота:** [@sсhedule_ASU_BOT](https://t.me/schedule_ASU_BOT)
 
 ---
 
