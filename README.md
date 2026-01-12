@@ -1,6 +1,6 @@
 # 📅 ScheduleBot 
 
-
+![](https://socialify.git.ci/Verkury/ScheduleBot/image?description=1&language=1&name=1&owner=1&pattern=Solid&theme=Dark)
 
 <p align="center">
   <a href="#-english">English</a> • 
