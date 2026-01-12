@@ -1,11 +1,16 @@
+<div align="center">
+
+
 # 📅 ScheduleBot 
 
 ![](https://socialify.git.ci/Verkury/ScheduleBot/image?description=1&language=1&name=1&owner=1&pattern=Transparent&theme=Dark)
 
-<p align="center">
+<p>
   <a href="#-english">English</a> • 
   <a href="#-русский">Русский</a>
 </p>
+</div>
+
 
 ---
 
