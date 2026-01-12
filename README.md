@@ -1,2 +1,51 @@
-# SheduleBot
-This is a telegram bot that can simply parse the schedule from the college's website and provide it directly in a telegram. This is more convenient than accessing the site every time, especially when there is no Internet connection.
+# 📅 SheduleBot 
+
+
+
+<p align="center">
+  <a href="#-english">English</a> • 
+  <a href="#-русский">Русский</a>
+</p>
+
+---
+
+## 🇺🇸 English 
+
+### About
+**SheduleBot** is a Telegram bot designed to parse and deliver college schedules directly to your phone. It's built for speed and reliability, ensuring you can access your classes even with a poor internet connection.
+
+### Architecture
+The project is split into two components to bypass regional IP restrictions (the university website only responds to Russian IP addresses):
+
+
+
+1.  **Client (Parser):** Written in **Go**, runs within Russia. It scrapes data from the college website and uploads it to **Google Drive**.
+2.  **Server (Bot):** Written in **Go**, hosted in the Netherlands. It pulls data from Google Drive and serves it to users via Telegram.
+
+> **Why this way?** This hybrid approach is more cost-effective than using proxies and ensures a stable connection between the server and the university's local resources.
+
+**Current Bot:** [@sheduleASU_BOT](https://t.me/sheduleASU_BOT)
+
+---
+
+## 🇷🇺 Русский
+
+### О проекте
+**SheduleBot** — это Telegram-бот, который парсит расписание с сайта колледжа и предоставляет его в удобном виде. Это гораздо быстрее и стабильнее, чем каждый раз открывать сайт, особенно при слабом мобильном интернете.
+
+### Архитектура
+Проект разделен на две части, чтобы обойти региональные блокировки (сайт университета принимает запросы только с российских IP-адресов):
+
+1.  **Клиент (Парсер):** Написан на **Go**, запущен в РФ. Собирает данные с сайта и загружает их на **Google Drive**.
+2.  **Сервер (Бот):** Написан на **Go**, сервер находится в Нидерландах. Бот забирает данные из облака и отправляет их пользователям.
+
+> **Зачем это нужно?** Мой сервер находится в Нидерландах, а сайт вуза блокирует зарубежные IP. Использование Google Drive как посредника — это дешевле и надежнее, чем аренда прокси-серверов.
+
+**Ссылка на бота:** [@sheduleASU_BOT](https://t.me/sheduleASU_BOT)
+
+---
+
+## 🛠 Tech Stack / Стек технологий
+* **Language:** Go (Golang)
+* **API:** IDK (now)
+* **Storage:** Google Drive API (as a bridge)
